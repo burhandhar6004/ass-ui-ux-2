@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4821526022518382) 100%, rgba(0, 0, 0, 0.09839910085127801) 100%), url(./vu-anh-TiVPTYCG_3E-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+/* -----------------navbar---------------- */
+
+.navbar {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-inline: 12%;
+    color: white;
+}
+
+.navbar img {
+    width: 8%;
+    /* border: 1px solid black; */
+}
+
+.navbar ul {
+    width: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+#sign {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(233, 51, 51);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#log {
+    width: 80px;
+    height: 30px;
+    background-color: rgba(9, 99, 141, 0.856);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* -----------------------------para------------ */
+
+
+#para {
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    margin-top: 35px;
+}
+
+
+/* ------------------------------------------------------- */
+
+
+.container-inp {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+    padding-inline: 12%;
+    padding-top: 20px;
+
+}
+
+.container-inp span {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-inp span input {
+    width: 250px;
+    height: 35px;
+    padding-left: 15px;
+    /* color: black; */
+    font-size: 17px;
+
+}
+
+.container-inp span {
+    position: relative;
+}
+
+.container-inp span i {
+    position: absolute;
+
+    top: 30px;
+    left: 220px;
+}
+
+.container-inp span label {
+    color: white;
+    padding-bottom: 10px;
+}
+
+/* ------------------------------------- */
+
+
+.butn {
+    width: 100%;
+    height: 14%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butn button {
+    background-color: rgb(233, 51, 51);
+    color: white;
+    border: none;
+    font-size: 17px;
+    width: 15%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* -------------------------------------- */
+
+
+.text {
+    width: 100%;
+    height: auto;
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.text p:first-child {
+    font-size: 55px;
+    padding-top: 20px;
+}
+
+.text p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+/* --------------------------------------------------------- */
+
+
+.box-num {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding-top: 70px;
+
+}
+
+.box-1 {
+    color: white;
+}
+
+.box-1 p {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+
+/* ------------------------responsive------------------------ */
+
+
+
+/* ------------------------------------------------------------------- */
+
+
+
+
+
+
+/* ---------------------------------300px to 500px responsive------------------------------ */
+
+
+
+
+@media only screen and (max-width:300px) {
+
+    .main-container {
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .navbar img {
+        width: 50px;
+        /* border: 1px solid black; */
+    }
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    #sign {
+        width: 50px;
+        height: 20px;
+        background-color: rgb(233, 51, 51);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+
+    #log {
+        width: 50px;
+        height: 20px;
+        background-color: rgba(9, 99, 141, 0.856);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+
+    /* -------------navbar complete---------------- */
+
+    #para {
+        text-align: center;
+        color: white;
+        font-size: 200%;
+        margin-top: 35px;
+    }
+
+    /* ----------------------------------------------------- */
+
+    .container-inp {
+        padding-inline: 5%;
+        padding-top: 15px;
+        flex-direction: column;
+    }
+
+    .container-inp span input {
+        width: 100%;
+        height: 35px;
+        /* padding-left: px; */
+        /* color: black; */
+        font-size: 17px;
+    }
+
+    .container-inp span i {
+        /* right: 50px; */
+        position: absolute;
+        left: 180px;
+        top: 55px;
+        /* bottom: 100px; */
+    }
+
+    .container-inp span label {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .butn button {
+        font-size: 15px;
+        width: 40%;
+    }
+
+    /* -------------------------------------------------------------------- */
+
+
+    .text p:first-child {
+        font-size: 20px;
+    }
+
+    .text p {
+        font-size: 10px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    /* -------------------------------------------------------------------- */
+
+    .box-num {
+        flex-direction: column;
+    }
+
+    .box-1 {
+        padding-top: 30px;
+    }
+
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width:300px) and (max-width:500px) {
+
+    .main-container {
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .navbar img {
+        width: 80px;
+        /* border: 1px solid black; */
+    }
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    #sign {
+        width: 50px;
+        height: 20px;
+        background-color: rgb(233, 51, 51);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+
+    #log {
+        width: 50px;
+        height: 20px;
+        background-color: rgba(9, 99, 141, 0.856);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+
+    /* -------------navbar complete---------------- */
+
+    #para {
+        text-align: center;
+        color: white;
+        font-size: 200%;
+        margin-top: 35px;
+    }
+
+    /* ----------------------------------------------------- */
+
+    .container-inp {
+        padding-inline: 5%;
+        padding-top: 15px;
+        flex-direction: column;
+    }
+
+    .container-inp span input {
+        width: 100%;
+        height: 35px;
+        /* padding-left: px; */
+        /* color: black; */
+        font-size: 17px;
+    }
+
+    .container-inp span i{
+        /* right: 50px; */
+        position: absolute;
+        left: 180px;
+        top: 55px;
+        bottom: 100px;
+    }
+
+    .container-inp span label {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .butn button {
+        font-size: 15px;
+        width: 40%;
+    }
+
+    /* -------------------------------------------------------------------- */
+
+
+    .text p:first-child {
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 13px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    /* -------------------------------------------------------------------- */
+
+    .box-num {
+        flex-direction: column;
+    }
+
+    .box-1 {
+        padding-top: 10px;
+    }
+
+    .flex-1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .flex-2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 15px;
+    }
+
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+@media only screen and (min-width:501px) and (max-width:768px) {
+
+    .main-container {
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .navbar img {
+        width: 80px;
+        /* border: 1px solid black; */
+    }
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        padding-inline: 5%;
+    }
+
+    .navbar ul {
+        /* display: none; */
+        width:60%;
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        /* border: 1px solid black; */
+        font-size: 80%;
+    }
+
+    .navbar span{
+        /* width: 100%; */
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+    #sign {
+        width: 50px;
+        height: 20px;
+        background-color: rgb(233, 51, 51);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+    #log {
+        width: 50px;
+        height: 20px;
+        background-color: rgba(9, 99, 141, 0.856);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+
+    /* -------------navbar complete---------------- */
+
+    #para {
+        text-align: center;
+        color: white;
+        font-size: 200%;
+        margin-top: 35px;
+    }
+
+    /* ----------------------------------------------------- */
+
+    .container-inp {
+        padding-inline: 5%;
+        padding-top: 15px;
+        flex-direction: column;
+    }
+
+    .container-inp span input {
+        width: 100%;
+        height: 35px;
+        /* padding-left: px; */
+        /* color: black; */
+        font-size: 17px;
+    }
+
+    .container-inp span i {
+        /* right: 50px; */
+        position: absolute;
+        left: 180px;
+        top: 55px;
+        /* bottom: 100px; */
+    }
+
+    .container-inp span label {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .butn button {
+        font-size: 15px;
+        width: 40%;
+    }
+
+    /* -------------------------------------------------------------------- */
+
+
+    .text p:first-child {
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 13px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    /* -------------------------------------------------------------------- */
+
+    .box-num {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .flex-1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        /* flex-direction: row; */
+        /* border: 1px solid white; */
+    }
+
+    .flex-2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 1px solid white; */
+        /* padding-top: 15px; */
+    }
+
+}
+
+
+/* ------------------------------------------------------------------------------------ */
+
+
+@media (min-width: 769px) {
+    .main-container {
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .navbar img {
+        width: 80px;
+        /* border: 1px solid black; */
+    }
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        padding-inline: 5%;
+    }
+
+    .navbar ul {
+        /* display: none; */
+        width:50%;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        /* border: 1px solid black; */
+        /* font-size: 100%; */
+    }
+
+    .navbar ul li{
+        font-size: 120% ;
+    }
+
+    .navbar span{
+        /* width: 100%; */
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+    #sign {
+        width: 80px;
+        height: 30px;
+        background-color: rgb(233, 51, 51);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    #log {
+        width: 80px;
+        height: 30px;
+        background-color: rgba(9, 99, 141, 0.856);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+
+    /* -------------navbar complete---------------- */
+
+    #para {
+        text-align: center;
+        color: white;
+        font-size: 200%;
+        margin-top: 35px;
+    }
+
+    /* ----------------------------------------------------- */
+
+    .container-inp {
+        padding-inline: 5%;
+        padding-top: 15px;
+        /* flex-direction: ; */
+        justify-content: space-evenly;
+    }
+
+    .container-inp span input {
+        width: 98%;
+        height: 35px;
+        /* padding-left: px; */
+        /* color: black; */
+        font-size: 17px;
+        margin-right: 10px;
+    }
+
+    .container-inp span i {
+        /* right: 50px; */
+        position: absolute;
+        left: 150px;
+        top: 55px;
+        /* bottom: 100px; */
+    }
+
+    .container-inp span label {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .butn button {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    /* -------------------------------------------------------------------- */
+
+
+    .text p:first-child {
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 13px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    /* -------------------------------------------------------------------- */
+
+    .box-num {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .flex-1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        /* flex-direction: row; */
+        /* border: 1px solid white; */
+    }
+
+    .flex-2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 1px solid white; */
+        /* padding-top: 15px; */
+    }
+
+}
