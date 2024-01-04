@@ -52,8 +52,18 @@
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
+#sign:hover{
+    background-color: rgb(240, 0, 0);
+
+}
+#log:hover{
+    background-color: rgba(11, 160, 230, 0.856);
+    cursor: pointer;
+
+}
 #log {
     width: 80px;
     height: 30px;
@@ -143,6 +153,12 @@
     height: 40px;
     margin-top: 20px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.butn button:hover{
+    background-color: rgb(255, 0, 0);
+
 }
 
 /* -------------------------------------- */
